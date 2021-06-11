@@ -1,12 +1,11 @@
 <?php
+//index.php
 
 require 'vendor/autoload.php';
 $f3 = \Base::instance();
 
 $f3->route('GET /', function() {
-    $view=new View;
-    echo $view->render('routes/index.php');
-    }
-);
+    echo 'Hello World!';
+});
 
 $f3->run();

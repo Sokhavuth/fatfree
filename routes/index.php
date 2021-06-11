@@ -1,1 +1,0 @@
-<img src='picture1.png' />
