@@ -2,7 +2,7 @@
 <?php require('views/header.php') ?>
 
 <div class='Main'>
-    Welcome to frontpage!
+    <?php echo $message ?>
 </div>
 
 <?php require('views/footer.php') ?>
