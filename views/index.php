@@ -1,8 +1,8 @@
 <!--views/index.php-->
-<?php require('header.php') ?>
+<?php require('views/header.php') ?>
 
 <div class='Main'>
     Welcome to frontpage!
 </div>
 
-<?php require('footer.php') ?>
+<?php require('views/footer.php') ?>
