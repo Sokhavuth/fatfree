@@ -2,5 +2,6 @@
 //routes/index.php
 
 $f3->route('GET /', function(){
-    echo 'Hello World!';
+    $view = new View;
+    echo $view->render('views/index.php');
 });
